@@ -163,6 +163,9 @@ void removeNode(TreeMap * tree, TreeNode* node) {
         node->pair->value = min->pair->value;
         removeNode(tree, min);
     }
+
+    free(node->pair);
+    free(node);
 }
 
 void eraseTreeMap(TreeMap * tree, void* key){
