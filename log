@@ -38,3 +38,9 @@ ju., 20 de abr. de 2023 18:59:44:
  1 file changed, 3 insertions(+)
  tests:  0|0
 d15efbd
+ju., 20 de abr. de 2023 19:02:15: 
+ treemap.c | 27 +++++++++++++++++++--------
+ 1 file changed, 19 insertions(+), 8 deletions(-)
+ tests:  16|4
+total_score: 30/70
+9ee69d4
