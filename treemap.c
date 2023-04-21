@@ -226,11 +226,9 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
 Pair * upperBound(TreeMap * tree, void* key) {
     if(tree == NULL || tree->root == NULL) return NULL;
 
-    TreeNode* nodoBuscado = searchTreeMap(tree, key);
-
-    if(nodoBuscado != NULL)
+    if(searchTreeMap(tree, key) != NULL)
     {
-        return nodoBuscado->pair;
+        return tree->current->pair;
     }
     else
     {
