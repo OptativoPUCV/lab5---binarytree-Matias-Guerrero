@@ -77,3 +77,9 @@ ju., 20 de abr. de 2023 21:23:33:
  tests:  25|1
 total_score: 60/70
 cf23e1f
+ju., 20 de abr. de 2023 21:24:48: 
+ treemap.c | 14 ++++++--------
+ 1 file changed, 6 insertions(+), 8 deletions(-)
+ tests:  25|1
+total_score: 60/70
+5c78782
