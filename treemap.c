@@ -252,6 +252,11 @@ Pair * upperBound(TreeMap * tree, void* key) {
             }
         }
 
+        if(tree->lower_than(nodoAuxiliar->pair->key, key))
+        {
+            return NULL;
+        }
+
         return nodoAuxiliar->pair;
     }
 
