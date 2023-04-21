@@ -260,5 +260,5 @@ Pair * nextTreeMap(TreeMap * tree) {
 
     tree->current = nodoActual;
 
-    return nodoActual->pair;
+    return tree->current->pair;
 }
