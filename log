@@ -100,3 +100,9 @@ ju., 20 de abr. de 2023 21:40:08:
  tests:  26|1
 total_score: 60/70
 fc44ecf
+ju., 20 de abr. de 2023 21:42:20: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  26|1
+total_score: 60/70
+616c088
